@@ -7,6 +7,9 @@ from typing import Optional, Any
 from fastmcp import Context
 from fastmcp.exceptions import ToolError
 import base64
+import logging
+
+LOGGER = logging.getLogger("progressive_skills_mcp")
 
 
 class MetadataGenerator:
